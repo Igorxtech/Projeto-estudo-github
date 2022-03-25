@@ -1,1 +1,14 @@
 Olá, meu nome é Igor
+
+Principais comandos git:
+
+git init ------------------------------> Dá início a um novo repositório na pasta atual do cmd.
+git status ----------------------------> Mostra o status dos arquivos, se existe algum arquivo novo ou modificado para ser commitado.
+git add . -----------------------------> Adiciona todos os itens da pasta para serem commitados.
+git add "" ----------------------------> Adiciona um item específico entre aspas.
+git commit -m "" ----------------------> Cria uma versão do código, e entre aspas se coloca a principal mudança feita no código.
+git remote add origin https... --------> Conecta o repositório remoto ao repositório local, no lugar de https fica a URL do repositório.
+git push --set-upstream origin master -> Cria uma branch master e envia os itens do repositório local(origin) para remoto.
+git branch ----------------------------> Mostra as branchs do repositório.
+git branch staging --------------------> Cria uma nova branch com o nome "staging".
+git checkout nomeDaBranch -------------> Muda para a branch que desejar.

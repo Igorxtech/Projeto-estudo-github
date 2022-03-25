@@ -12,3 +12,10 @@ git push --set-upstream origin master -> Cria uma branch master e envia os itens
 git branch ----------------------------> Mostra as branchs do repositório.
 git branch staging --------------------> Cria uma nova branch com o nome "staging".
 git checkout nomeDaBranch -------------> Muda para a branch que desejar.
+
+Passo a passo Merge:
+
+-Antes de tudo use o comando git pull para garantir que tem a versão mais atual do código.
+-Vá para a branch que receberá o merge utilizando git checkout nomeDaBranch.
+-Digite o comando git merge nomeDaBranch, com o nome da branch que será unida.
+-Para finalizar faça um git push.

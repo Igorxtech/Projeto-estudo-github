@@ -19,3 +19,9 @@ Passo a passo Merge:
 -Vá para a branch que receberá o merge utilizando git checkout nomeDaBranch.
 -Digite o comando git merge nomeDaBranch, com o nome da branch que será unida.
 -Para finalizar faça um git push.
+
+Gitignore:
+
+-Para que o git ignore arquivos que você não quer que sejam versionados seguimos utilizando o comando 'touch .gitignore' que cria um arquivo de texto .gitignore.
+-Em seguida podemos adicionar dentro desse arquivo as pastas que queremos ignorar seguidas de uma barra. Por exemplo: pastaparaignorar/
+-Se for somente um arquivo e não uma pasta, é só adicionar o nome do arquivo com sua extensão. Por exemplo: arquivoignorar.jpg
